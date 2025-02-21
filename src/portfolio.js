@@ -7,26 +7,26 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Miftaul Mannan",
-  logo_name: "Miftaul Mannan",
+  title: "Myriam Coté",
+  logo_name: "Myriam Coté",
   nickname: null,
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
     "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
-  portfolio_repository: "https://github.com/Tasin5541",
+  portfolio_repository: "https://github.com/myimcte",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Tasin5541",
+    link: "https://github.com/myimcte",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/miftaul-mannan-tasin-566543107/",
+    link: "https://www.linkedin.com/in/Myriam-Coté-Myriam-566543107/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -40,19 +40,19 @@ const socialMediaLinks = [
   {
     name: "Gmail",
     link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
+      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=MyriamMyriamCoté@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/tasinmiftaulmannan",
+    link: "https://www.facebook.com/MyriamMyriamCoté",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/mm_tasin/",
+    link: "https://www.instagram.com/mm_Myriam/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -304,7 +304,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/tasin95",
+      profileLink: "https://www.codechef.com/users/Myriam95",
     },
   ],
 };
@@ -554,7 +554,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "tasin.png",
+    profile_image_path: "Myriam.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Basic Programming, ML, AI, Android, Cloud and Opensource Development.",
   },
@@ -562,7 +562,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
-    link: "https://miftaulmannan.wordpress.com/projects/",
+    link: "https://MyriamCoté.wordpress.com/projects/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
