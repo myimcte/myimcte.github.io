@@ -1,0 +1,47 @@
+@use '@styles/general' as general;
+
+.root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+    background-color: var(--snow-white);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.title {
+    font: var(--heading1);
+    text-align: center;
+    letter-spacing: 0.4rem;
+
+    @media only screen and (max-width: general.$mobile-width) {
+        font-size: 3rem;
+    }
+}
+
+.paragraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    font: var(--paragraph1);
+
+    @media only screen and (max-width: general.$mobile-width) {
+        font-size: 1rem;
+    }
+}
+
+.text {
+    width: 60%;
+}
+
+.button {
+    align-self: center;
+}
+
+.image {
+    align-self: center;
+    height: 14em;
+    margin-top: 1em;
+    width: 24em;
+}
