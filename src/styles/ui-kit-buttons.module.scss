@@ -1,0 +1,72 @@
+@use '@styles/colors.scss';
+
+.container {
+    font-family: Wix Madefor Text;
+    padding: 16px;
+    width: 100%;
+}
+
+.uikit {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12.6px;
+    letter-spacing: 1px;
+}
+
+.coreComponents {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.active {
+    color: var(--black);
+    font-weight: 600;
+}
+
+.hrSolid {
+    height: 1px;
+    width: 250px;
+    background-color: #000;
+}
+
+.sectionTitle {
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.hrLight {
+    height: 1px;
+    width: 250px;
+    background-color: #000;
+    opacity: 0.2;
+    margin-top: 40px;
+}
+
+.sectionHeader {
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 12px;
+    letter-spacing: 0.12em;
+    color: #625d5d;
+    margin: 20px 0px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonLabel {
+    font-size: 9px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: space-between;
+}

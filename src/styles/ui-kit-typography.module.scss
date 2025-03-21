@@ -1,0 +1,86 @@
+.container {
+    font-family: Wix Madefor Text;
+    padding: 16px;
+    overflow: hidden;
+    min-width: 320px;
+}
+
+.uikit {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12.6px;
+    letter-spacing: 1px;
+}
+
+.foundation {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.hrSolid {
+    height: 1px;
+    width: 250px;
+    background-color: #000;
+}
+
+.sectionTitle {
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.hrLight {
+    height: 1px;
+    width: 250px;
+    background-color: #000;
+    opacity: 0.2;
+    margin-top: 40px;
+}
+
+.sectionHeader {
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 12px;
+    letter-spacing: 0.12em;
+    color: #625d5d;
+    margin: 20px 0px 16px;
+}
+
+.variantName {
+    font-size: 9px;
+    font-weight: 800;
+    line-height: 7px;
+}
+
+.fontDetails {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 8px;
+    max-width: 244px;
+}
+
+.headlinesSpacing {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.paragraphSpacing {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.heading1 {
+    font: var(--heading1);
+}
+
+.heading2 {
+    font: var(--heading2);
+}
+
+.paragraph1 {
+    font: var(--paragraph1);
+}
+
+.paragraph2 {
+    font: var(--paragraph2);
+}

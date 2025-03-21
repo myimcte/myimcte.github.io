@@ -1,0 +1,72 @@
+@use './colors.scss';
+@use './typography.scss';
+
+.intro-button {
+    text-align: center;
+    font: var(--paragraph2);
+    background-color: var(--snow-white);
+    padding: 10px;
+    width: 160px;
+    color: var(--charcoal-black);
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    &:hover {
+        background-color: #b6c1f0;
+        color: var(--black);
+    }
+}
+
+.primaryButton {
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    font: var(--paragraph2);
+    color: var(--snow-white);
+    border-radius: 35px;
+    height: 42px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: 1px solid var(--charcoal-black);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.primaryButton:hover {
+    background-color: var(--white);
+    border: 1px solid var(--charcoal-black);
+    color: var(--charcoal-black);
+}
+
+.secondaryButton {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    font: var(--paragraph2);
+    cursor: pointer;
+    padding-right: 22px;
+    padding-left: 22px;
+    border: 1px solid var(--charcoal-black);
+    border-radius: 35px;
+    z-index: 1;
+    &:hover {
+        background-color: #729991;
+        border: 1px solid #729991;
+        color: var(--white);
+    }
+}
+
+.numberInput {
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 25px;
+    width: 60px;
+    padding-right: 10px;
+    font: --var(--paragraph2);
+}
+
+.price {
+    font-weight: 700;
+    margin-top: 2px;
+}

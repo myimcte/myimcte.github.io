@@ -1,0 +1,38 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menuButton {
+    padding-right: 22px;
+    padding-left: 22px;
+    font: var(--button-font);
+}
+
+.active {
+    font-weight: 500;
+}
+
+.logo {
+    font: 700 18px/1.5 var(--my-pretty-font);
+    height: fit-content;
+}
+
+@media (width < 455px) {
+    .root {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    .logo {
+        display: none;
+    }
+}

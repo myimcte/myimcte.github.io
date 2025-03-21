@@ -1,0 +1,13 @@
+:root {
+    --my-pretty-font: 'DM Sans', sans-serif;
+
+    //title
+    --heading1: 300 4rem/1.4 var(--my-pretty-font);
+    --heading2: 400 1rem/1.3 var(--my-pretty-font);
+
+    //paragraph
+    --paragraph1: 300 1.3rem/1.3 var(--my-pretty-font);
+    --paragraph2: 200 1rem/1.3 var(--my-pretty-font);
+
+    --button-font: 400 1rem/1.3 var(--my-pretty-font);
+}
