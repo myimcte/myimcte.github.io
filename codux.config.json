@@ -19,12 +19,6 @@
       "description": "Run install",
       "command": "npm i",
       "trigger": ["checkout", "pull", "setup"]
-    },
-    "deploy": {
-      "title": "Deploy",
-      "description": "Deploy online",
-      "command": "gh-pages -b gh-pages -d build",
-      "trigger": ["push"]
     }
   },
   "styling": {
